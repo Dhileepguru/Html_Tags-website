@@ -1,1 +1,152 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML Tags</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        header {
+            background-color: green; /* Green background color for header */
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        /* ... rest of your styling ... */
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Learn HTML Tags</h1>
+        </center>
+    </header>
+    <!-- Marquee with moving text on the right side -->
+    <marquee direction="up" style="position: fixed; top: 0; right: 0; width: 20%; height: 100%; background-color: #333;">
+        <p style="color: white;">Welcome to the Learn HTML Tags website! Explore the basics of HTML and more.</p>
+    </marquee>
+    <nav>
+        <h2>Navigation</h2>
+        <ol>
+            <li><a href="#basic-tags">Basic Tags</a></li>
+            <li><a href="#media-tags">Media Tags</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#iframes">IFrames</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#source-code">Source Code</a></li>
+        </ol>
+    </nav>
+    <main>
+        <section id="basic-tags">
+            <h2>Basic HTML Tags</h2>
+                <table border="1" cellspacing="10" cellpadding="10">
+                <tr>
+                    <th>Tag</th>
+                    <th>Example</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>&lt;html&gt;&lt;/html&gt;</td>
+                    <td>Represents the root element of an HTML document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>&lt;head&gt;&lt;/head&gt;</td>
+                    <td>Contains meta-information about the HTML document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt;</td>
+                    <td>&lt;title&gt;Learn HTML&lt;/title&gt;</td>
+                    <td>Sets the title of the HTML document shown in the browser tab.</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta&gt;</td>
+                    <td>&lt;meta name="author" content="John Doe"&gt;</td>
+                    <td>Provides metadata about the HTML document.</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>&lt;link rel="stylesheet" href="styles.css"&gt;</td>
+                    <td>Defines a link between the HTML document and an external resource.</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>&lt;body&gt;Content goes here&lt;/body&gt;</td>
+                    <td>Contains the content of the HTML document that is displayed in the browser.</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td>&lt;h1&gt;Heading&lt;/h1&gt;</td>
+                    <td>Defines headings of various levels.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>&lt;p&gt;This is a paragraph.&lt;/p&gt;</td>
+                    <td>Represents a paragraph of text.</td>
+                </tr>
+                <!-- Add more basic tags here -->
+            </table>
+        </section>
+        <section id="media-tags">
+            <h2>Media Tags</h2>
+            <h3>Image</h3>
+            <img src="D:\spotknack\HtmlTags\Html_Tags-website\assets\images\learnhtml.jpeg" alt="An example image">
+            <br>
+            <br>
+            <h3> Video</h3>
+            <video controls>
+                <source src="D:\spotknack\HtmlTags\Html_Tags-website\assets\video\videotag.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+        </section>
+        <section id="links">
+            <h2>Links</h2>
+            <a href="https://www.geeksforgeeks.org/html-tags-a-to-z-list/">Learn HTML Tags A to Z</a>
+        </section>
+        <section id="iframes">
+            <h2>IFrames</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d4X6SwzLMNA?si=qbyJg7dnwws0JBtq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="forms">
+            <h2>Forms</h2>
+            <form>
+                <ul style="list-style-type: none; padding: 0; ">
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </li>
+                    <li>
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" style="margin-top: 10px;">
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <section id="source-code">
+            <h2>Source Code</h2>
+            <p>You can find the source code for this website on GitHub.</p>
+            <a href="https://github.com/Dhileepguru/Html_Tags-website.git" target="_blank">GitHub Repository</a>
+        </section>
+        
+        
+    </main>
+</body>
+</html>
